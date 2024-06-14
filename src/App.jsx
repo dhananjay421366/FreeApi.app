@@ -8,7 +8,7 @@ function App() {
 
     return (
         <>
-            <div className="p-24 page_main__WunS6 ">
+            <div className="md:p-24 page_main__WunS6 w-min md:w-auto">
                 {/* <div className="page_description__ihOGI  md:flex md:justify-between md:px-[200px]">
           <a href="https://github.com/hiteshchoudhary/apihub" target="_blank">
             <span class="text-sm md:text-md">Need of every developer</span>
@@ -34,7 +34,7 @@ function App() {
                     </a>
                 </div>
 
-                <div class="page_grid__8s97H  md:grid  gap-6 md:gap-0">
+                <div class="page_grid__8s97H  md:grid  gap-12 md:gap-0 md:mt-8">
                     <a
                         class="page_card__iAZT9"
                         target="_blank"
