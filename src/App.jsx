@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -25,20 +26,20 @@ function App() {
                 </div>
                 <div className="flex justify-center">
                     {" "}
-                    <a
-                        href="https://github.com/hiteshchoudhary/apihub"
+                    <Link
+                        to={"https://github.com/hiteshchoudhary/apihub"}
                         class="bg-yellow-500  justify-center w-auto text-black font-medium p-2 px-4 rounded-lg"
                         target="_blank"
                     >
                         A project by Hitesh Choudhary and team
-                    </a>
+                    </Link>
                 </div>
 
                 <div class="page_grid__8s97H  md:grid  gap-12 md:gap-0 md:mt-8">
-                    <a
+                    <Link
                         class="page_card__iAZT9"
                         target="_blank"
-                        href="https://api.freeapi.app"
+                        to={"https://api.freeapi.app"}
                     >
                         <h2>
                             Cooked in Docs <span>-&gt;</span>
@@ -48,11 +49,11 @@ function App() {
                             swagger. With Swagger, you can read, learn and execute code within
                             docs.
                         </p>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         target="_blank"
                         class="page_card__iAZT9"
-                        href="https://www.youtube.com/watch?v=xJq0EQMFGyg&amp;list=PLRAV69dS1uWSx4erHGq8hW_GE-Eaj60r-"
+                        to={"https://www.youtube.com/watch?v=xJq0EQMFGyg&amp;list=PLRAV69dS1uWSx4erHGq8hW_GE-Eaj60r-"}
                     >
                         <h2>
                             Setup videos <span>-&gt;</span>
@@ -63,8 +64,8 @@ function App() {
                             have a complete setup of the project as well as some special
                             configuration.
                         </p>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="https://github.com/hiteshchoudhary/apihub"
                         class="page_card__iAZT9"
                         target="_blank"
@@ -76,13 +77,13 @@ function App() {
                         <span class="text-yellow-500 p-1 rounded">
                             Click here to access it.
                         </span>
-                    </a>
-                    <a href="#" class="page_card__iAZT9" target="_blank">
+                    </Link>
+                    <Link to={"#"} class="page_card__iAZT9" target="_blank">
                         <h2>
                             Featured <span>-&gt;</span>
                         </h2>
                         <p>Here are some of the featured projects sent to us by users</p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>
